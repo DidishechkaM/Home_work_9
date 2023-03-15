@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class MyArrayListStrings {
+
     private ArrayList<String> list = new ArrayList<String>();
 
     public void addString(String value) {
@@ -11,12 +12,15 @@ public class MyArrayListStrings {
         list.remove(value);
     }
 
-    public  void searchString(String value) {
-         list.contains(value);
+    public void searchString(String value) {
+        list.contains(value);
+        System.out.println(value);
     }
-    public void printAllStrings(){
+
+    public void printAllStrings() {
         System.out.println(list);
     }
+
     }
 
 

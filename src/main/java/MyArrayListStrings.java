@@ -14,14 +14,17 @@ public class MyArrayListStrings {
 
     public void searchString(String value) {
         list.contains(value);
-        System.out.println(value);
+        System.out.println("yes");
     }
-
     public void printAllStrings() {
         System.out.println(list);
     }
-
+    public ArrayList <String> getlist() {
+        return list;
     }
+}
+
+
 
 
 

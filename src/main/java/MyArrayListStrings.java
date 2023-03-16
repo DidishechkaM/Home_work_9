@@ -17,8 +17,15 @@ public class MyArrayListStrings {
         System.out.println("yes");
     }
     public void printAllStrings() {
-        System.out.println(list);
+        System.out.println();
+
+        for (String str: list){
+            System.out.println(str);
+        }
+        System.out.println();
     }
+
+
     public ArrayList <String> getlist() {
         return list;
     }

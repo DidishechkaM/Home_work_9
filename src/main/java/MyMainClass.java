@@ -3,7 +3,7 @@ import java.util.HashSet;
 public class MyMainClass {
     public static void main(String[] args) {
         MyArrayListStrings myArrayListStrings = new MyArrayListStrings();
-       myArrayListStrings.addString("Element");
+       myArrayListStrings.addString("Eleme nt");
         myArrayListStrings.addString("TwoElement");
         myArrayListStrings.addString("Three");
         myArrayListStrings.printAllStrings();
@@ -13,7 +13,13 @@ public class MyMainClass {
             System.out.println(element);
         }
 
-       MySetStrings mySet   = new MySetStrings();
+        MySetStrings vegetables   = new MySetStrings();
+        vegetables.add("Onion");
+        vegetables.add("Carrot");
+        vegetables.add("Beet");
+        vegetables.printAllContetnt();
+        vegetables.isAdded("Carrot");
+
 
 
 
